@@ -1,0 +1,26 @@
+{
+  "name": "delivery-platform-backend",
+  "version": "1.0.0",
+  "description": "Platform for courier delivery with real-time tracking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "express-rate-limit": "^6.11.2",
+    "geoip-lite": "^1.4.10",
+    "helmet": "^7.2.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.8.7",
+    "node-cron": "^3.0.3",
+    "redis": "^4.7.1",
+    "socket.io": "^4.8.1"
+  }
+}
